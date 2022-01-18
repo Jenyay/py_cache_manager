@@ -35,7 +35,7 @@ def read_md(fname):
     else:
         return read(fname)
 
-version = '2.1.0'
+version = '2.1.0.post1'
 required = [req.strip() for req in read('requirements.txt').splitlines() if req.strip()]
 setup(
     name='CacheMan',
